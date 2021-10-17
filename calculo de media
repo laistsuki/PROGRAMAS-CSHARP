@@ -1,0 +1,19 @@
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float p1, p2, p3, media;
+
+            Console.Write("Digite a nota da p1: ");
+            p1 = float.Parse(Console.ReadLine());
+            Console.Write("Digite a nota da p2: ");
+            p2 = float.Parse(Console.ReadLine());
+            Console.Write("Digite a nota da p3: ");
+            p3 = float.Parse(Console.ReadLine());
+            Console.Clear();
+
+            media = (p1 + p2 + p3) / 2;
+            Console.WriteLine("A sua média final é: {0}", media);
+            Console.ReadLine();
+        }
+    }
